@@ -116,7 +116,3 @@ artifacts {
     archives javadocJar
     archives sourcesJar
 }
-
-task findConventions << {
-    println project.getConvention()
-}
